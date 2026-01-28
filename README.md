@@ -1,7 +1,7 @@
 # TDSE-01
-# Project Title
+# Stellar Luminosity Regression Project
 
-One Paragraph of project description goes here
+This project implements linear and polynomial regression from scratch to model stellar luminosity as a function of mass and temperature. No machine learning libraries are used; all prediction, loss, and gradient descent functions are implemented with NumPy. The project is part of a Machine Learning Bootcamp within a course on Digital Transformation and Enterprise Architecture.
 
 ## Getting Started
 
@@ -12,78 +12,50 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 
 ```
-Give examples
+Python 3.x
+Jupyter
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
 ```
-Give the example
+1. Clone the repository
+2. Activate an environment.
 ```
 
-And repeat
 
-```
-until finished
-```
+## Running the notebooks
 
-End with an example of getting some data out of the system or using it for a little demo
+1. Notebook 1 (01_part1_linreg_1feature.ipynb)
 
-## Running the tests
+    - Models luminosity as a linear function of stellar mass
 
-Explain how to run the automated tests for this system
+    - Includes data visualization, cost surface, gradient descent (vectorized and non-vectorized), learning rate experiments, and final line fit
 
-### Break down into end to end tests
+2. Notebook 2 (02_part2_polyreg.ipynb)
+
+   - Models luminosity considering mass, temperature, and polynomial terms (M², M*T)
+
+    - Includes feature engineering, vectorized gradient descent, feature selection experiments, interaction term analysis, and prediction for new stars
+
+### AWS SageMaker Execution Evidence
 
 Explain what these tests test and why
 
 ```
 Give an example
 ```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* Python
+* Jupyter
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* **Andres Felipe Cardozo Martinez**
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* This project was guided by laboratory notebook exercises provided as part of the course.
 
