@@ -40,11 +40,26 @@ Jupyter
 
 ### AWS SageMaker Execution Evidence
 
-Explain what these tests test and why
+Amazon SageMaker is a fully managed cloud service from AWS that enables developers and data scientists to quickly and scalably create, train, and deploy machine learning (ML) and generative AI models.
 
-```
-Give an example
-```
+
+1. Upload process
+
+<img width="1583" height="742" alt="image" src="https://github.com/user-attachments/assets/cd28e490-958f-4735-97b5-da158b6776e2" />
+
+Both notebooks (01_part1_linreg_1feature.ipynb and 02_part2_polyreg.ipynb) were uploaded to AWS SageMaker Studio
+
+<img width="255" height="140" alt="image" src="https://github.com/user-attachments/assets/affc4dd1-59d0-48e4-a7f9-eebbbbae800a" />
+
+2. Execution
+No errors occurred during execution.
+
+<img width="350" height="52" alt="image" src="https://github.com/user-attachments/assets/5aa5009f-f744-4352-87a1-b044c26d1968" />
+
+<img width="861" height="670" alt="image" src="https://github.com/user-attachments/assets/38131bf2-0118-49b7-8fe6-2501b5034766" />
+
+<img width="768" height="668" alt="image" src="https://github.com/user-attachments/assets/f5884355-290a-4a9c-a634-fb75b706232b" />
+
 
 ## Built With
 
